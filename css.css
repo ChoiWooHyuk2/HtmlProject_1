@@ -1,0 +1,49 @@
+
+body {
+    margin: 0px;
+    background-image: url(StartImg.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+ 
+}
+
+
+.box{
+   display: flex;
+    justify-content: center;
+    align-items:center;
+    width: 100vw;
+    height: 100vh;
+    flex-direction: column;
+    
+
+}
+.box * {
+    font-family: 'Press Start 2P', cursive;
+    text-shadow: 1px 8px 1px white; 
+    text-decoration: none;
+    font-size: 100px;
+}
+#black{
+    margin-top: 20px;
+     animation:blink 0.5s ease-in-out infinite alternate;
+}
+font {
+    
+    font-size: 10px;
+}
+
+@keyframes blink{
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+
+
+#black{color: black;}
+.red{color: red;}
+.yellow{color: yellow;}
+.green{color: greenyellow;}
+.sky{color: skyblue;}
+.blue{color: blue;}
+.violet{color: violet;}
+.press{font-size: 30px;}
